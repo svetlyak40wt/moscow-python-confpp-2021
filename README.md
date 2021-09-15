@@ -9,3 +9,11 @@
 --------------------
 
     pipenv run jupyter notebook
+
+Как установить кастомное ядро
+-----------------------------
+
+    pipenv run jupyter \
+           kernelspec install \
+           ./custom-kernel \
+           --user
