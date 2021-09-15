@@ -1,0 +1,9 @@
+{
+    "argv": [
+        "~/Documents/Презентации/Moscow Python Conf 2021/code/custom-kernel/run",
+        "-f",
+        "{connection_file}"
+    ],
+    "display_name": "Moscow Python Conf 2021",
+    "language": "python"
+}

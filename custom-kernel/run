@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+from ipykernel import kernelapp as app
+
+if __name__ == '__main__':
+    # Тут можно добавлять разные пути в PYTHONPATH
+    # sys.path.insert('')
+    # Стартуем IPKernelApp
+    app.launch_new_instance(
+        extensions=[
+            'second',
+            'autoreload',
+        ]
+    )
